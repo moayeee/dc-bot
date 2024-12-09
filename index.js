@@ -2,7 +2,6 @@ const fs = require('node:fs');
 const path = require('node:path');
 const { Client, Collection, Events, GatewayIntentBits } = require('discord.js');
 const { token } = require('./config.json');
-const db = require('./database.js'); // Example database import if used elsewhere
 
 // Initialize the Discord client
 const client = new Client({
